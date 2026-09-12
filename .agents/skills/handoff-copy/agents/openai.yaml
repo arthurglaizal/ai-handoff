@@ -1,0 +1,7 @@
+interface:
+  display_name: "Handoff Copy"
+  short_description: "Copy an AI handoff to the clipboard."
+  default_prompt: "Use $handoff-copy to create a handoff and copy it to the clipboard."
+policy:
+  allow_implicit_invocation: false
+

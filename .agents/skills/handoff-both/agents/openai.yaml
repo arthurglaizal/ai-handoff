@@ -1,0 +1,7 @@
+interface:
+  display_name: "Handoff Both"
+  short_description: "Save an AI handoff and copy the same content."
+  default_prompt: "Use $handoff-both to save a handoff and copy the same content to the clipboard."
+policy:
+  allow_implicit_invocation: false
+

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Handoff MD"
+  short_description: "Save an AI handoff as a timestamped Markdown file."
+  default_prompt: "Use $handoff-md to create and save a handoff for the next AI agent."
+policy:
+  allow_implicit_invocation: false
+
