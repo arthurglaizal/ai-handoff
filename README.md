@@ -1,10 +1,11 @@
+<p align="center">
+  <img src="assets/ai-handoff-demo.gif" alt="AI Handoff demo: move an active coding session from Claude Code to Codex without losing context" width="960">
+</p>
+
 # AI Handoff
 
 > **Continue your work in another AI without starting over.**
 
-<p align="center">
-  <img src="assets/ai-handoff-demo.gif" alt="AI Handoff demo: move an active coding session from Claude Code to Codex without losing context" width="960">
-</p>
 
 AI Handoff packages the context and current project state needed to pick up the same work in Claude Code, Codex, or another AI agent.
 
