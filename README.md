@@ -144,6 +144,7 @@ ai-handoff/
 | [Session Recap](https://github.com/arthurglaizal/session-recap) | Recaps what you did in the current session and what to pick up next. |
 | [Noob Command](https://github.com/arthurglaizal/noob-command) | Rewrites the last AI answer in simple, concise language. |
 | [Ask Mode](https://github.com/arthurglaizal/ask-mode) | Lets you question your codebase without the assistant changing anything. |
+| [FYI](https://github.com/arthurglaizal/fyi-command) | Gives your assistant context without giving it a task. |
 
 ## Support
 
