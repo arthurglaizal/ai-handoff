@@ -9,7 +9,7 @@
 
 AI Handoff packages the context and current project state needed to pick up the same work in Claude Code, Codex, or another AI agent.
 
-## Commands
+## Skills
 
 | Output | Claude Code | Codex |
 | --- | --- | --- |
@@ -51,7 +51,7 @@ AI Handoff checks both sources and gives the next agent what it needs to continu
 
 ## What it does
 
-The command reads the conversation context still available to the agent and checks only the repository state relevant to the active work. It does not scan the full architecture or run tests just to create a handoff. It distinguishes verified repository facts from discussion, mentions material uncommitted work, and avoids including secrets.
+Each skill reads the conversation context still available to the agent and checks only the repository state relevant to the active work. It does not scan the full architecture or run tests just to create a handoff. It distinguishes verified repository facts from discussion, mentions material uncommitted work, and avoids including secrets.
 
 The generated handoff normally stays between 300 and 700 words, with a soft limit of 1,000 words for unusually complex work. It is not a transcript, a full project history, or a replacement for Git documentation.
 
@@ -110,7 +110,7 @@ Codex uses `$handoff-md`, `$handoff-copy`, and `$handoff-both`, not custom root 
 - For another coding assistant, paste [install-handoff-for-any-ai.md](prompts-for-installation/install-handoff-for-any-ai.md).
 - For ChatGPT, Claude, Gemini, or another regular chat, paste [handoff-ai-chat-version.md](prompts-for-ai-chat/handoff-ai-chat-version.md).
 
-Clipboard access depends on the host. If it is unavailable, the command returns the Markdown in a copyable code block.
+Clipboard access depends on the host. If it is unavailable, the skill returns the Markdown in a copyable code block.
 
 ## Repository structure
 
@@ -136,15 +136,17 @@ ai-handoff/
     └── handoff-ai-chat-version.md
 ```
 
-## More AI workflow commands
+## More AI workflow skills
 
-| Command | What it does |
+Small, portable skills for Claude Code, Codex, and any AI assistant.
+
+| Skill | What it does |
 | --- | --- |
 | [WaitGo](https://github.com/arthurglaizal/wait-go) | Batches your instructions, then executes only when you say go. |
 | [Session Recap](https://github.com/arthurglaizal/session-recap) | Recaps what you did in the current session and what to pick up next. |
-| [Noob Command](https://github.com/arthurglaizal/noob-command) | Rewrites the last AI answer in simple, concise language. |
+| [Noob](https://github.com/arthurglaizal/noob) | Rewrites the last AI answer in simple, concise language. |
 | [Ask Mode](https://github.com/arthurglaizal/ask-mode) | Lets you question your codebase without the assistant changing anything. |
-| [FYI](https://github.com/arthurglaizal/fyi-command) | Gives your assistant context without giving it a task. |
+| [FYI](https://github.com/arthurglaizal/fyi) | Gives your assistant context without giving it a task. |
 
 ## Support
 
