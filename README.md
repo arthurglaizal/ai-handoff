@@ -147,6 +147,7 @@ Small, portable skills for Claude Code, Codex, and any AI assistant.
 | [Noob](https://github.com/arthurglaizal/noob) | Rewrites the last AI answer in simple, concise language. |
 | [Ask Mode](https://github.com/arthurglaizal/ask-mode) | Lets you question your codebase without the assistant changing anything. |
 | [FYI](https://github.com/arthurglaizal/fyi) | Gives your assistant context without giving it a task. |
+| [Lazy](https://github.com/arthurglaizal/lazy) | Does what the assistant just suggested, instead of explaining it. |
 
 ## Support
 
